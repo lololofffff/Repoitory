@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Ultra Sky",
+   Name = "Ultra Sky DELTA",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Loaded Sky",
    LoadingSubtitle = "by KICKALL/Kickboxing267",
@@ -38,6 +38,8 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Home/Main", 10723407389) -- Title, Image
+
+local Paragraph = Tab:CreateParagraph({Title = "Creator", Content = "Not FE"})
 
 local Button = Tab:CreateButton({
    Name = "Loaded DELTA SkyBox",
